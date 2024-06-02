@@ -61,7 +61,7 @@ class CalculatorController {
       }
 
       resultsNumber = result.toString();
-      inputNumber = '0';
+      inputNumber = resultsNumber;
       firstInput = null;
       operation = null;
       setState(() {});
